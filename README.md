@@ -1,4 +1,5 @@
-<pre><code>
+<p>
+```js
 class Sedorriku {
   constructor (){
     this.username = "Sedorriku";
@@ -34,7 +35,8 @@ class Sedorriku {
 };
 
 new Sedorriku ("Hello there !");
-</code></pre>
+```
+</p>
 
 <strong>Mon compte Discord :</strong>
 <img src="https://discord.c99.nl/widget/theme-3/782164174821523467.png" alt="rien">
