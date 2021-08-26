@@ -1,4 +1,4 @@
-<pre><code>
+```js
 class Sedorriku {
   constructor (){
     this.username = "Sedorriku";
@@ -34,10 +34,10 @@ class Sedorriku {
 };
 
 new Sedorriku ("Hello there !");
-</pre></code>
+```
 
-<strong>Mon compte Discord :</strong>
+<strong>Mon compte Discord :</strong></br> </br>
 <img src="https://discord.c99.nl/widget/theme-3/782164174821523467.png" alt="rien">
 
-<strong>Mes statistiques :</strong>
+<strong>Mes statistiques :</strong></br> </br>
 [![Sedorriku1949's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sedorikku1949&show_icons=true&theme=blueberry)](https://github.com/Sedorikku1949/github-readme-stats)
