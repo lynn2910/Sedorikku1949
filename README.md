@@ -25,8 +25,10 @@ class Sedorriku {
       French team for ever !
 
       Other ?
-      ${searchingData()}
-      I have a Discord server and a Discord Bot 😉
+      ${searchingData().then(text => {
+          return "I have a Discord server and a Discord Bot 😉"
+        }
+      }
 
       See you soon !!!!
     `;
