@@ -28,7 +28,7 @@ class Sedorriku {
       ${
         searchingData().then(text => {
           return "I have a Discord server and a Discord Bot 😉"
-        }
+        })
       }
 
       See you soon !!!!
