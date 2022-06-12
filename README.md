@@ -10,6 +10,7 @@ class Sedorriku {
   };
   sleep() {
     console.log("pouf je n'existe plus");
+    return "sleep";
   };
   programming() {
     console.log("This is when the fun begin");
