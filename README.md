@@ -1,43 +1,53 @@
-```js
-class Sedorriku {
-  constructor (){
-    this.username = "Sedorriku";
-    this.favoriteFood = "all";
-    this.sleep = false;
-  };
-  wakeUp() {
-    console.log("OHAYO");
-  };
-  sleep() {
-    console.log("pouf je n'existe plus");
-    return "sleep";
-  };
-  programming() {
-    console.log("This is when the fun begin");
-    return `echo node starter Lana --dataCheck`;
-  };
-  eat() {
-    console.log("spaghetti ?");
-  };
-  whoHeIs() {
-    return `
-      I am a little developper.
-      I use the JavaScript, Java and C#.
-      French team for ever !
+```rs
+struct Skills {
+  back: Vec<str>,
+  front: Vec<str>,
+  storage: Vec<str>
+}
 
-      Other ?
-      ${
-        searchingData().then(text => {
-          return "I have a Discord server and a Discord Bot 😉"
-        })
+struct Project {
+  name: str,
+  link: str,
+  isDeployed: bool
+}
+
+struct Projects {
+  list: Vec<Project>
+}
+
+fn main() {
+  let projects = Projects {
+    list: vec![
+      Project {
+        name: "Kady",
+        link: "https://kady.tlkoe.xyz/",
+        isDeployed: true
+      },
+      Project {
+        name: "Stellar",
+        link: "🤫",
+        isDeployed: false
+      },
+      Project {
+        name: "Astero"
+        link: "This is also a secret for now",
+        isDeployed: false
       }
-
-      See you soon !!!!
-    `;
-  };
+    ]
+  }
+  
+  let favorite_langage: str = "Rust ✨";
+  println!("My favorite langage is: {lang}", lang = &favorite_langage);
+  
+  let skills = Skills {
+    back: vec![&favorite_langage, "C", "Bash", "Lua"],
+    front: vec!["JavaScript", "Typescript", "HTML", "CSS"],
+    storage: vec!["SQL", "JSON", "XML"]
+  }
+  
+  
+  println!("\x1b[35m See you soon! \x1b[0m")
 };
-
-new Sedorriku ("Hello there !");
 ```
 
 <strong>Mes statistiques :</strong></br> </br>
