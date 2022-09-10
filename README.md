@@ -1,3 +1,10 @@
+# Sedorriku
+
+> 👋 I'm a french studient of 17 years.
+
+**I work daily on languages like `JavaScript`, `TypeScript`, `Rust`, `Lua` and much more!**
+
+## 🔎 My *rusty* presentation:
 ```rs
 struct Skills {
   back: Vec<str>,
